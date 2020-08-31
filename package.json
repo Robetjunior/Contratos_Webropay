@@ -1,0 +1,20 @@
+{
+  "name": "Contratos_Webropay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robetjunior/Contratos_Webropay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robetjunior/Contratos_Webropay/issues"
+  },
+  "homepage": "https://github.com/Robetjunior/Contratos_Webropay#readme"
+}
