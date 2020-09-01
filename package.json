@@ -21,5 +21,15 @@
     "sequelize": "^6.3.4",
     "sequelize-cli": "^6.2.0",
     "swagger-tools": "^0.10.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robetjunior/Contratos_Webropay.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Robetjunior/Contratos_Webropay/issues"
+  },
+  "homepage": "https://github.com/Robetjunior/Contratos_Webropay#readme"
 }

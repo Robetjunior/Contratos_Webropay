@@ -7,18 +7,18 @@ info:
     \ #swagger](http://swagger.io/irc/).      For this sample, you can use the api\
     \ key `special-key` to test the authorization     filters."
   version: "1.0.0"
-  title: "Webropay Contracts"
+  title: "Swagger Petstore"
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "apiteam@swagger.io"
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "webropay.czeruqgah1kf.us-east-1.rds.amazonaws.com"
+host: "petstore.swagger.io"
 basePath: "/v2"
 tags:
-  - name: "Contracts"
-    description: "Everything about your Contracts"
+  - name: "pet"
+    description: "Everything about your Pets"
     externalDocs:
       description: "Find out more"
       url: "http://swagger.io"

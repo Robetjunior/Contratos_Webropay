@@ -1,16 +1,11 @@
-require("dotenv").config();
+const { Client } = require("pg");
 
-module.exports = {
-  development: {
-    url: process.env.DEV_DATABASE_URL,
-    dialect: "postgres",
-  },
-  test: {
-    url: process.env.TEST_DATABASE_URL,
-    dialect: "postgres",
-  },
-  production: {
-    url: process.env.DATABASE_URL,
-    dialect: "postgres",
-  },
-};
+const client = new Client({
+  user: "candidate01",
+  host: "webropay.czeruqgah1kf.us-east-1.rds.amazonaws.com",
+  database: "webropay",
+  password: "webropay",
+  port: 5432,
+});
+
+client.connect();
