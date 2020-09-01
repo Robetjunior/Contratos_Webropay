@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 
 /**
  * Create user
@@ -8,40 +7,37 @@
  * body User Created user object
  * no response value expected for this operation
  **/
-exports.createUser = function(body) {
-  return new Promise(function(resolve, reject) {
+exports.createUser = function (body) {
+  return new Promise(function (resolve, reject) {
     resolve();
   });
-}
-
+};
 
 /**
  * Creates list of users with given input array
- * 
+ *
  *
  * body List List of user object
  * no response value expected for this operation
  **/
-exports.createUsersWithArrayInput = function(body) {
-  return new Promise(function(resolve, reject) {
+exports.createUsersWithArrayInput = function (body) {
+  return new Promise(function (resolve, reject) {
     resolve();
   });
-}
-
+};
 
 /**
  * Creates list of users with given input array
- * 
+ *
  *
  * body List List of user object
  * no response value expected for this operation
  **/
-exports.createUsersWithListInput = function(body) {
-  return new Promise(function(resolve, reject) {
+exports.createUsersWithListInput = function (body) {
+  return new Promise(function (resolve, reject) {
     resolve();
   });
-}
-
+};
 
 /**
  * Delete user
@@ -50,75 +46,71 @@ exports.createUsersWithListInput = function(body) {
  * username String The name that needs to be deleted
  * no response value expected for this operation
  **/
-exports.deleteUser = function(username) {
-  return new Promise(function(resolve, reject) {
+exports.deleteUser = function (username) {
+  return new Promise(function (resolve, reject) {
     resolve();
   });
-}
-
+};
 
 /**
  * Get user by user name
- * 
  *
- * username String The name that needs to be fetched. Use user1 for testing. 
+ *
+ * username String The name that needs to be fetched. Use user1 for testing.
  * returns User
  **/
-exports.getUserByName = function(username) {
-  return new Promise(function(resolve, reject) {
+exports.getUserByName = function (username) {
+  return new Promise(function (resolve, reject) {
     var examples = {};
-    examples['application/json'] = {
-  "firstName" : "firstName",
-  "lastName" : "lastName",
-  "password" : "password",
-  "userStatus" : 6,
-  "phone" : "phone",
-  "id" : 0,
-  "email" : "email",
-  "username" : "username"
-};
+    examples["application/json"] = {
+      firstName: "firstName",
+      lastName: "lastName",
+      password: "password",
+      userStatus: 6,
+      phone: "phone",
+      id: 0,
+      email: "email",
+      username: "username",
+    };
     if (Object.keys(examples).length > 0) {
       resolve(examples[Object.keys(examples)[0]]);
     } else {
       resolve();
     }
   });
-}
-
+};
 
 /**
  * Logs user into the system
- * 
+ *
  *
  * username String The user name for login
  * password String The password for login in clear text
  * returns String
  **/
-exports.loginUser = function(username,password) {
-  return new Promise(function(resolve, reject) {
+exports.loginUser = function (username, password) {
+  return new Promise(function (resolve, reject) {
     var examples = {};
-    examples['application/json'] = "";
+    examples["application/json"] = "";
     if (Object.keys(examples).length > 0) {
       resolve(examples[Object.keys(examples)[0]]);
     } else {
       resolve();
     }
   });
-}
-
+};
 
 /**
  * Logs out current logged in user session
- * 
+ *
  *
  * no response value expected for this operation
  **/
-exports.logoutUser = function() {
-  return new Promise(function(resolve, reject) {
+exports.logoutUser = function () {
+  return new Promise(function (resolve, reject) {
     resolve();
   });
-}
-
+};
 
 /**
  * Updated user
@@ -128,9 +120,8 @@ exports.logoutUser = function() {
  * body User Updated user object
  * no response value expected for this operation
  **/
-exports.updateUser = function(username,body) {
-  return new Promise(function(resolve, reject) {
+exports.updateUser = function (username, body) {
+  return new Promise(function (resolve, reject) {
     resolve();
   });
-}
-
+};
