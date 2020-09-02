@@ -1,35 +1,22 @@
 {
-  "name": "swagger-petstore",
-  "version": "1.0.0",
-  "description": "This is a sample server Petstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters.",
-  "main": "index.js",
-  "scripts": {
-    "prestart": "npm install",
-    "start": "node index.js"
-  },
-  "keywords": [
-    "swagger"
-  ],
-  "license": "Unlicense",
+  "name": "Contratos_Webropay",
+  "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "connect": "^3.2.0",
-    "dotenv": "^8.2.0",
-    "js-yaml": "^3.3.0",
-    "pg": "^8.3.3",
-    "pg-hstore": "^2.3.3",
-    "sequelize": "^6.3.4",
-    "sequelize-cli": "^6.2.0",
-    "swagger-tools": "^0.10.4"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Robetjunior/Contratos_Webropay.git"
-  },
+  "description": "New Swagger API Project",
+  "keywords": [],
   "author": "",
-  "bugs": {
-    "url": "https://github.com/Robetjunior/Contratos_Webropay/issues"
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "swagger-express-mw": "^0.7.0"
   },
-  "homepage": "https://github.com/Robetjunior/Contratos_Webropay#readme"
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
 }
